@@ -154,3 +154,24 @@ server {
     }
 }
 ```
+
+## Automatic renewal
+
+One of the nice things, most of the manaaged reverse proxies have, is automatic renewal of the certificates.
+Usually certbot will renew the certificate automatically, but since the docker container we use to generate new certificates does not stay online we need another docker container that renews the existing certificates. Its gets the same volumes as our creating certbot.
+
+We append the following service to our `docker-compose.yml`.
+
+```yml
+  certbot_renew:
+    image: ghcr.io/jm-lemmi/certbot-autorenew
+    depends_on:
+      - proxy
+    restart: unless-stopped
+    volumes:
+    - "/srv/web/proxy/certbot/www/:/var/www/certbot/:rw"
+    - "/srv/web/proxy/certbot/conf/:/etc/letsencrypt/:rw"
+```
+
+You can see the sourcecode of the docker image [here](https://github.com/JM-Lemmi/docker-certbot-autorenew).
+It uses the recommended renewal command from the certbot docs.
