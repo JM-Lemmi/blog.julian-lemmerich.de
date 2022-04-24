@@ -1,0 +1,26 @@
+name: Blog Convert & Publish
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v3
+      - run: npm --prefix ./.github/scripts/ install
+      - name: convert
+        run: node ./.github/scripts/convert.js
+      - name: copy files to vps
+        uses: appleboy/scp-action@master
+        with:
+          host: j-cx11-web.cloud.julian-lemmerich.de
+          username: ghactions
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: 22
+          source: "dist/*"
+          target: "~/blog"
+          overwrite: true
