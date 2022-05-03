@@ -42,7 +42,9 @@ files.forEach(function(file) {
       </html>`;
       html = preContent + converter.makeHtml(text) + postContent
 
-      fs.mkdirSync(process.cwd() + "/dist/");
+      if (!fs.existsSync(process.cwd() + "/dist/")){
+        fs.mkdirSync(process.cwd() + "/dist/");
+      }
       let filePath = process.cwd() + "/dist/" + file.replace(/\.md$/, '.html');
       fs.writeFile(filePath, html, { flag: "wx" }, function(err) {
         if (err) {
