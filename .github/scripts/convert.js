@@ -33,6 +33,12 @@ files.forEach(function(file) {
           <link rel="stylesheet" href="` + styleLink + `">
         </head>
         <body>
+          <div class="topnav">
+            <a href="https://www.julian-lemmerich.de/">Home</a>
+            <a class="active" href="https://blog.julian-lemmerich.de/">Blog</a>
+            <a href="https://photos.julian-lemmerich.de/">Photography</a>
+            <a href="https://www.julian-lemmerich.de/aboutme.html">About</a>
+          </div>
           <div id='content'>
       `
       let postContent = `
