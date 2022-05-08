@@ -42,7 +42,6 @@ files.forEach(function(file) {
           <div id='content'>
       `
       let postContent = `
-    
           </div>
         </body>
       </html>`;
