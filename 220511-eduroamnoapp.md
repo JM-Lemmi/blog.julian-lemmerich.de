@@ -10,11 +10,11 @@ The Domain setting is just the Domain of your institution (without any subdomain
 
 The T-Telesec GlobalRoot Class 2 Certificate is also preinstalled (at least on my Galaxy S10e Tab S6lite with Android 12), so no need to manually download it. (If you need it, you can get it [here directly from T-Systems](https://corporate-pki.telekom.de/en/GlobalRootClass2.html))
 
-![ScreenshotS10e-Zertspeicher](220511-eduroamnoapp-screenshot1.jpg)
+<img src="220511-eduroamnoapp-screenshot1.jpg" alt="ScreenshotS10e-Zertspeicher" width="400">
 
 The full Settings are then as follows:
 
-![ScreenshotS10e-Wificonfig](220511-eduroamnoapp-screenshot2.jpg)
+<img src="220511-eduroamnoapp-screenshot2.jpg" alt="ScreenshotS10e-Wificonfig" width="400">
 
 If the connection is not succesfull immediately, don't worry. Just restart your Wifi, then it should work.
 
