@@ -4,6 +4,10 @@ Welcome to my Blog!
 
 ## Articles
 
+### 11.05.22: [Android 11 Eduroam without gededuroam App](220511-eduroamnoapp.html)
+
+Since Android 11 the manual way of adding the Eduroam network requires more input. The official solution, the geteduroam app, is a horrible mess that I don't want to use.
+
 ### 08.05.22: [Docker IPv6 Userland Proxy](220508-dockeripv6-userlandproxy.html)
 
 Some interesting information about the Docker IPv6 Userland Proxy and how to better use it, despite Docker's horrible implementation.
