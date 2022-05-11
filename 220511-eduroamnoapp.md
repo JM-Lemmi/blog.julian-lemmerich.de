@@ -6,7 +6,7 @@ Since Android 11, you can no longer use a custom certificate without naming a "D
 
 ## Solution
 
-The Domain setting is just the Domain of your institution (without any subdomains), so if your E-Mail is ˋjl35byci@stud.tu-darmstadt.deˋ the domain you want to enter is ˋtu-darmstadt.deˋ.
+The Domain setting is just the Domain of your institution (without any subdomains), so if your E-Mail is `jl35byci@stud.tu-darmstadt.de` the domain you want to enter is `tu-darmstadt.de`.
 
 If the connection is not succesfull immediately, don't worry. Just restart your Wifi, then it should work.
 
@@ -14,9 +14,9 @@ If the connection is not succesfull immediately, don't worry. Just restart your 
 
 You can get a Certificates CN with openssl:
 
-ˋˋˋ
+```
 openssl x509 -noout -subject -in t-telesec-globalroot-2.pem
-ˋˋˋ
+```
 
 ---
 
