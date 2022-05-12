@@ -33,7 +33,7 @@ body {
 
 /* from https://raw.githubusercontent.com/KrauseFx/markdown-to-html-github-style/master/style.css */
 
-div.content {
+#content {
   font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #111;
   background-color: #fdfdfd;
