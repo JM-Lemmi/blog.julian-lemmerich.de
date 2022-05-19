@@ -3,7 +3,7 @@
 var showdown  = require('showdown');
 var fs = require('fs');
 var files = fs.readdirSync(process.cwd() + '/');
-let styleLink = "./style.css";
+let styleLink = "https://www.julian-lemmerich/style.css";
 
 // run for every file in the current directory
 files.forEach(function(file) {
@@ -37,7 +37,7 @@ files.forEach(function(file) {
             <a href="https://www.julian-lemmerich.de/">Home</a>
             <a class="active" href="https://blog.julian-lemmerich.de/">Blog</a>
             <a href="https://photos.julian-lemmerich.de/">Photography</a>
-            <a href="https://www.julian-lemmerich.de/aboutme.html">About</a>
+            <a href="https://www.julian-lemmerich.de/about.html">About</a>
           </div>
           <div id='content'>
       `
