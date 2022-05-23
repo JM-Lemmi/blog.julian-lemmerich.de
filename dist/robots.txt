@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://blog.julian-lemmerich.de/sitemap.xml

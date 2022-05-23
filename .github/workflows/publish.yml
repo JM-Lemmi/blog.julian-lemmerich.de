@@ -11,11 +11,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0  #this is required by sitemap generator
       - uses: actions/setup-node@v3
       - name: Install npm dependencies
         run: npm --prefix ./.github/scripts/ install
       - name: Convert MD to HTML
         run: node ./.github/scripts/convert.js
+      - name: Generate Sitemap
+        uses: cicirello/generate-sitemap@v1.8.3
+        with:
+          path-to-root: dist
+          base-url-path: "https://blog.julian-lemmerich.de/"
+          url-count: true
+          excluded-count: true
       - name: Upload Artifacts
         uses: actions/upload-artifact@v3
         with:
