@@ -4,6 +4,10 @@ Welcome to my Blog!
 
 ## Articles
 
+### 27.06.22: [Automatic Number Plate Recognition 1: OpenALPR](220627-anpr1.html)
+
+In the first article of this series I will be looking at OpenALPR.
+
 ### 27.06.22: [Automatic Number Plate Recognition 0: Can't be that hard, right?](220627-anpr0.html)
 
 The start of a number plate nerd trying to teach his rpi to remember all the other cars. ANPR is surely a solved problem by now, right?
