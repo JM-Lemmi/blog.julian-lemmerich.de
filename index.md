@@ -6,7 +6,7 @@ Welcome to my Blog!
 
 ### 27.06.22: [Automatic Number Plate Recognition 1: OpenALPR](220627-anpr1.html)
 
-In the first article of this series I will be looking at OpenALPR.
+In the first article of this series I will be looking at OpenALPR. The software is easy to use, comes with compiled binaries for windows and doesn't need a fancy GPU or anything like that. It also has bind ins for python and Go, which would ease integration into a live system.
 
 ### 27.06.22: [Automatic Number Plate Recognition 0: Can't be that hard, right?](220627-anpr0.html)
 
