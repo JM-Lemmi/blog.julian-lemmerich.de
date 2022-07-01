@@ -221,3 +221,31 @@ add
 ```
 
 to `/etc/rc.local`
+
+## linklist
+
+* [https://unifi.julian-lemmerich.de/manage/site/default/clients/1/50](https://unifi.julian-lemmerich.de/manage/site/default/clients/1/50)
+* [https://www.einplatinencomputer.com/raspberry-pi-infrarot-empfaenger-und-fernbedienung-einrichten/](https://www.einplatinencomputer.com/raspberry-pi-infrarot-empfaenger-und-fernbedienung-einrichten/)
+* [https://www.reichelt.de/entwicklerboards-ir-empfaenger-38-khz-debo-ir-38khz-p254147.html](https://www.reichelt.de/entwicklerboards-ir-empfaenger-38-khz-debo-ir-38khz-p254147.html)
+* [https://de.pinout.xyz/pinout/pin2_5v_stromversorgung](https://de.pinout.xyz/pinout/pin2_5v_stromversorgung)
+* [https://tutorials-raspberrypi.de/raspberry-pi-fernbedienung-infrarot-steuerung-lirc/](https://tutorials-raspberrypi.de/raspberry-pi-fernbedienung-infrarot-steuerung-lirc/)
+* [https://blog.gc2.at/post/ir/](https://blog.gc2.at/post/ir/)
+* [https://devkimchi.com/2020/08/12/turning-raspberry-pi-into-remote-controller/](https://devkimchi.com/2020/08/12/turning-raspberry-pi-into-remote-controller/)
+* [https://wiki.libreelec.tv/configuration/ir-remotes](https://wiki.libreelec.tv/configuration/ir-remotes)
+* [https://www.lirc.org/html/irexec.html](https://www.lirc.org/html/irexec.html)
+* [https://www.lirc.org/html/configuration-guide.html](https://www.lirc.org/html/configuration-guide.html)
+* [https://forum.kodi.tv/showthread.php?tid=287862](https://forum.kodi.tv/showthread.php?tid=287862)
+* [https://www.lirc.org/html/lircd-uinput.html](https://www.lirc.org/html/lircd-uinput.html)
+* [https://github.com/LibreELEC/documentation/blob/master/configuration/ir-remotes.md](https://github.com/LibreELEC/documentation/blob/master/configuration/ir-remotes.md)
+* [https://bluewavestudio.io/community/showthread.php?tid=823](https://bluewavestudio.io/community/showthread.php?tid=823)
+* [https://raspberrypi.stackexchange.com/questions/40184/lirc-remote-keypresses-send-to-shell](https://raspberrypi.stackexchange.com/questions/40184/lirc-remote-keypresses-send-to-shell)
+* [https://www.lirc.org/html/lircd-uinput.html](https://www.lirc.org/html/lircd-uinput.html)
+* [https://www.google.com/search?q=lircd-uinput+stop+repeating&oq=lircd-uinput+stop+repeating&aqs=edge..69i57.4818j0j1&sourceid=chrome&ie=UTF-8#bsht=CgRmYnNtEgQIBBAA](https://www.google.com/search?q=lircd-uinput+stop+repeating&oq=lircd-uinput+stop+repeating&aqs=edge..69i57.4818j0j1&sourceid=chrome&ie=UTF-8#bsht=CgRmYnNtEgQIBBAA)
+* [https://stackoverflow.com/questions/38816306/python-lirc-keyup-function](https://stackoverflow.com/questions/38816306/python-lirc-keyup-function)
+* [https://www.lirc.org/html/lircd.html](https://www.lirc.org/html/lircd.html)
+* [https://www.google.com/search?q=lirc-uinput+stop+repeating+presses&oq=lirc-uinput+stop+repeating+presses&aqs=edge..69i57.5640j0j4&sourceid=chrome&ie=UTF-8#bsht=CgRmYnNtEgQIBBAA](https://www.google.com/search?q=lirc-uinput+stop+repeating+presses&oq=lirc-uinput+stop+repeating+presses&aqs=edge..69i57.5640j0j4&sourceid=chrome&ie=UTF-8#bsht=CgRmYnNtEgQIBBAA)
+* [https://bluewavestudio.io/community/thread-2048.html](https://bluewavestudio.io/community/thread-2048.html)
+* [https://forums.raspberrypi.com/viewtopic.php?t=14588](https://forums.raspberrypi.com/viewtopic.php?t=14588)
+* [http://raspberry.tips/raspberrypi-einsteiger/raspberry-pi-autostart-von-skripten-und-programmen-einrichten#:~:text=Ein%20Init%20Script%20wird%20im,neustarten%20auch%20entsprechend%20behandelt%20wird.](http://raspberry.tips/raspberrypi-einsteiger/raspberry-pi-autostart-von-skripten-und-programmen-einrichten#:~:text=Ein%20Init%20Script%20wird%20im,neustarten%20auch%20entsprechend%20behandelt%20wird.)
+* [https://unix.stackexchange.com/questions/353417/rc-local-does-not-run-program-with-parameters-correctly](https://unix.stackexchange.com/questions/353417/rc-local-does-not-run-program-with-parameters-correctly)
+* [https://github.com/JM-Lemmi/Volvo-Remotes](https://github.com/JM-Lemmi/Volvo-Remotes)
