@@ -4,6 +4,10 @@ Welcome to my Blog!
 
 ## Articles
 
+## 01.07.2022: [Controlling OpenAutoPro with Volvo RTI IR-Remote](220701-volvoir.html)
+
+Using my original 2007 Volvo RTI Remote to control OpenAutoPro on a Raspberry Pi.
+
 ### 27.06.22: [Automatic Number Plate Recognition 1: OpenALPR](220627-anpr1.html)
 
 In the first article of this series I will be looking at OpenALPR. The software is easy to use, comes with compiled binaries for windows and doesn't need a fancy GPU or anything like that. It also has bind ins for python and Go, which would ease integration into a live system.
