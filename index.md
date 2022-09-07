@@ -4,7 +4,7 @@ Welcome to my Blog!
 
 ## Articles
 
-## 01.07.2022: [Controlling OpenAutoPro with Volvo RTI IR-Remote](220701-volvoir.html)
+### 01.07.2022: [Controlling OpenAutoPro with Volvo RTI IR-Remote](220701-volvoir.html)
 
 Using my original 2007 Volvo RTI Remote to control OpenAutoPro on a Raspberry Pi.
 
