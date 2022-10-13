@@ -1,8 +1,8 @@
 # Use Eduroam on Android 11 without the geteduroam App.
 
-The geteduroam App, that is by many institutions the recommended way of connecting to eduroam. As can be seen from the playstore reviews, it is not the greatest app there is.
+The geteduroam App is by many institutions the recommended way of connecting to eduroam. But, as can be seen from the playstore reviews, it is not the greatest app there is.
 
-Since Android 11, you can no longer use a custom certificate without naming a "Domain". You can still use eduroam without checking the certificate, but this will expose your credentials to fake eduroam APs.
+Before Android 11, it was very easy to add it yourself, but since Android 11, you can no longer use a custom certificate without naming a "Domain". You can still use eduroam without checking the certificate, but this will expose your credentials to fake eduroam APs and really should not be done.
 
 ## Solution
 
@@ -26,6 +26,4 @@ You can get a Certificates CN with openssl:
 openssl x509 -noout -subject -in t-telesec-globalroot-2.pem
 ```
 
----
-
-There is no guarantee that this works, this is just, what finally solved it for me and enabled me to get rid of this aweful app.
+There is no guarantee that this works, this is just, what finally solved it for me and enabled me to get rid of this awful app.
