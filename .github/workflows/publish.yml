@@ -37,5 +37,5 @@ jobs:
           password: ${{ secrets.HETZNER_FTP_PWD }}
           protocol: "ftps"
           local-dir: "./dist/"
-          target: "blog/"
+          server-dir: "./blog/"
           overwrite: true
