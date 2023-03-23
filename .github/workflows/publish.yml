@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - master
-      - feature-*
 
 jobs:
   build:
@@ -33,9 +32,9 @@ jobs:
       - name: Upload to J-CX11
         uses: appleboy/scp-action@master
         with:
-          host: j-cx11-web.cloud.julian-lemmerich.de
-          username: ghactions
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          host: www184.your-server.de
+          username: ${{ secrets.HETZNER_FTP_USR }}
+          key: ${{ secrets.HETZNER_FTP_PWD }}
           port: 22
           source: "dist/*"
           target: "~/blog"
