@@ -29,12 +29,12 @@ jobs:
         with:
           name: dist
           path: dist
-      - name: Upload to J-CX11
+      - name: Upload to Webhost
         uses: appleboy/scp-action@master
         with:
           host: www184.your-server.de
           username: ${{ secrets.HETZNER_FTP_USR }}
-          key: ${{ secrets.HETZNER_FTP_PWD }}
+          password: ${{ secrets.HETZNER_FTP_PWD }}
           port: 22
           source: "dist/*"
           target: "~/blog"
