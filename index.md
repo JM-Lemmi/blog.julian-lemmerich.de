@@ -4,6 +4,10 @@ Welcome to my Blog!
 
 ## Articles
 
+### 05.06.2023: [OSM Diary: Mapping the Weinsberger Berge](230605-osm1.html)
+
+Inspired by [Tom7](http://tom7.org/) to go outside more, I set myself the goal of biking every Forestpath between Weinsberg and Heilbronn, before I will be moving avay in the Summer.
+
 ### 01.07.2022: [Controlling OpenAutoPro with Volvo RTI IR-Remote](220701-volvoir.html)
 
 Using my original 2007 Volvo RTI Remote to control OpenAutoPro on a Raspberry Pi.
