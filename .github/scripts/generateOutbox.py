@@ -15,7 +15,7 @@ for file in files:
             "@context": "https://www.w3.org/ns/activitystreams",
             "id": "https://blog.julian-lemmerich.de/activitypub/notes/" + file,
             "type": "Note",
-            "content": metadata['description'] + "\n\n" + url,
+            "content": "<p>" + metadata['title'] + "</p><p>" + metadata['description'] + "</p><p><a href=" + url + ">" + url + "</a></p>",
             "url": url,
             "attributedTo": "https://blog.julian-lemmerich.de/activitypub/actor.json",
             "to": [
