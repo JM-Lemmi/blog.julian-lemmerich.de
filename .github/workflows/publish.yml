@@ -15,8 +15,14 @@ jobs:
       - uses: actions/setup-node@v3
       - name: Install npm dependencies
         run: npm --prefix ./.github/scripts/ install
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      
       - name: Convert MD to HTML
         run: node ./.github/scripts/convert.js
+      - name: Generate Index Page
+        run: python ./.github/scripts/generateIndex.py
       - name: Generate Sitemap
         uses: cicirello/generate-sitemap@v1.8.3
         with:
@@ -24,6 +30,7 @@ jobs:
           base-url-path: "https://blog.julian-lemmerich.de/"
           url-count: true
           excluded-count: true
+      
       - name: Upload Artifacts
         uses: actions/upload-artifact@v3
         with:

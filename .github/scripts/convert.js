@@ -12,9 +12,12 @@ files.forEach(function(file) {
       if (err) {
         throw err; 
       }
+
       let text = data.toString();
 
-      let pageTitle = text.match(/^# (.*)/);
+      // get json file with the same name
+      let jsonFile = file.replace(/\.md$/, '.json');
+      let metadata = JSON.parse(fs.readFileSync(process.cwd() + '/' + jsonFile));
     
       converter = new showdown.Converter({
         ghCompatibleHeaderId: true,
@@ -27,9 +30,21 @@ files.forEach(function(file) {
       let preContent = `
       <html>
         <head>
-          <title>` + pageTitle + `</title>
+          <title>` + metadata['title'] + `</title>
           <meta name="viewport" content="width=device-width, initial-scale=1">
           <link rel="stylesheet" href="https://www.julian-lemmerich.de/style.css">
+          <meta property="og:title" content="` + metadata['title'] + `">
+          <meta property="og:description" content="` + metadata['description'] + `">
+      `
+      if (metadata['image']) {
+        preContent += `<meta property="og:image" content="https://blog.julian-lemmerich.de/` + metadata['image'] + `">`
+      }
+      preContent += `
+          <meta property="og:url" content="https://blog.julian-lemmerich.de/` + file.replace(/\.md$/, '.html') + `">
+          <meta property="og:locale" content="` + metadata['language'] + `">
+          <meta property="og:type" content="article">
+          <meta property="og:article:author" content="` + metadata['author'] + `">
+          <meta property="og:article:published_time" content="` + metadata['date'] + `">
         </head>
         <body>
           <div class="topnav">
@@ -40,6 +55,7 @@ files.forEach(function(file) {
           </div>
           <div id='content'>
       `
+
       let postContent = `
           </div>
         </body>
