@@ -1,6 +1,6 @@
 import os
 import json
-import datetime
+from datetime import datetime
 from rfeed import *
 
 files = os.listdir(os.getcwd())
