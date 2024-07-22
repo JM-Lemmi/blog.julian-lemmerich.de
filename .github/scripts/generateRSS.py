@@ -21,6 +21,7 @@ for file in files:
         pubDate = datetime.fromisoformat(metadata['date']),
         guid = Guid(metadata['title'])
       )
+      items.append(item)
 
 feed = Feed(
     title = "Personal blog by Julian Lemmerich",
