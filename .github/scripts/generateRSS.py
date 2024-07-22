@@ -27,7 +27,7 @@ feed = Feed(
     link = "http://blog.julian-lemmerich.de/rss",
     description = "This is my personal Blog",
     language = "de-DE",
-    lastBuildDate = datetime.datetime.now(),
+    lastBuildDate = datetime.now(),
     items = items
     )
 
