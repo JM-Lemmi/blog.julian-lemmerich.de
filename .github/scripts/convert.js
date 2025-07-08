@@ -48,11 +48,12 @@ files.forEach(function(file) {
         </head>
         <body>
           <div class="topnav">
-            <a href="https://www.julian-lemmerich.de/">Home</a>
-            <a class="active" href="https://blog.julian-lemmerich.de/">Blog</a>
-            <a href="https://photos.julian-lemmerich.de/">Photography</a>
-            <a href="https://www.julian-lemmerich.de/about.html">About</a>
-          </div>
+          <a class="active" href="https://www.julian-lemmerich.de/">Home</a>
+          <a href="https://blog.julian-lemmerich.de/">Blog</a>
+          <a href="https://www.julian-lemmerich.de/academics.html">Academics</a>
+          <a href="https://wiki.julian-lemmerich.de/doku.php?id=knowledge_base:start">Knowledge Base</a>
+          <a href="https://www.julian-lemmerich.de/about.html">About</a>
+        </div>
           <div id='content'>
       `
 
