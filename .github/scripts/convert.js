@@ -32,6 +32,7 @@ files.forEach(function(file) {
         <head>
           <title>` + metadata['title'] + `</title>
           <meta name="viewport" content="width=device-width, initial-scale=1">
+          <meta charset="utf-8">
           <link rel="stylesheet" href="https://www.julian-lemmerich.de/style.css">
           <meta property="og:title" content="` + metadata['title'] + `">
           <meta property="og:description" content="` + metadata['description'] + `">
