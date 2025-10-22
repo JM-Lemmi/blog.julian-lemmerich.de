@@ -4,6 +4,7 @@ date = "2021-06-02T12:37:11+02:00"
 author = "Julian Lemmerich"
 summary = "Yesterday Telefonica Germany, as the last of the big 3, activated IPv6 on their mobile networks for all existing customers."
 language = "en_GB"
+aliases = ['/210602-telefonicaipv6']
 +++
 
 Yesterday Telefonica Germany, as the last of the big 3, activated IPv6 on their mobile networks for all existing customers: [Original Announcement in German](https://www.telefonica.de/news/corporate/2021/04/mehr-ip-adressen-und-endgeraete-im-netz-o2-kunden-nutzen-internet-protokolle-ipv4-und-ipv6-im-parallelbetrieb.html)

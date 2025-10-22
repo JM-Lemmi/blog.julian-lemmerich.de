@@ -4,6 +4,7 @@ date = 2022-05-08
 author = "Julian Lemmerich"
 summary = "Some interesting information about the Docker IPv6 Userland Proxy and how to better use it, despite Docker's horrible implementation."
 language = "en_GB"
+aliases = ['/220508-dockeripv6-userlandproxy']
 +++
 
 Everybody knows, that the Docker IPv6 support is lackluster at best.
