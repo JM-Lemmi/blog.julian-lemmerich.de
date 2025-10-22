@@ -1,4 +1,10 @@
-# Reverse-proxying with bare nginx in a dockerized setup
++++
+title = "Reverse-proxying with bare nginx in a dockerized setup"
+date = 2022-04-24
+author = "Julian Lemmerich"
+summary = "Every Docker Setup nowadays needs a reverse proxy and there are a lot of different choices. After trying both Traefik and NGINX Proxy Manager, but having troubles with them, I decided to use a bare nginx container. This setup needs a bit more attention, but its also much lighter and easier to maintain in my opinion."
+language = "en_GB"
++++
 
 Every Docker Setup nowadays needs a reverse proxy and there are a lot of different choices.
 

@@ -1,4 +1,10 @@
-# Use Eduroam on Android 11 without the geteduroam App.
++++
+title = "Use Eduroam on Android 11 without the geteduroam App"
+date = 2022-05-11
+author = "Julian Lemmerich"
+summary = "Since Android 11 the manual way of adding the Eduroam network requires more input. The official solution, the geteduroam app, is a horrible mess that I don't want to use."
+language = "en_GB"
++++
 
 The geteduroam App is by many institutions the recommended way of connecting to eduroam. But, as can be seen from the playstore reviews, it is not the greatest app there is.
 

@@ -1,0 +1,18 @@
+baseURL: https://blog.julian-lemmerich.de/
+languageCode: en-US
+menus:
+  main:
+  - name: Home
+    pageRef: /
+    weight: 10
+  - name: Posts
+    pageRef: /posts
+    weight: 20
+  - name: Tags
+    pageRef: /tags
+    weight: 30
+module:
+  hugoVersion:
+    extended: false
+    min: 0.146.0
+title: My New Hugo Site
