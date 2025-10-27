@@ -12,37 +12,19 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0  #this is required by sitemap generator
-      - uses: actions/setup-node@v3
-      - name: Install npm dependencies
-        run: npm --prefix ./.github/scripts/ install
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
       
-      - name: Convert MD to HTML
-        run: node ./.github/scripts/convert.js
-      - name: Generate Index Page
-        run: python ./.github/scripts/generateIndex.py
-      - name: Get python RSS dependency
-        run: wget https://raw.githubusercontent.com/svpino/rfeed/master/rfeed.py -O ./.github/scripts/rfeed.py
-      - name: Generate RSS Feed
-        run: python ./.github/scripts/generateRSS.py
-      - run: mkdir -p dist/activitypub/notes
-      - name: Generate Activitypub Outbox
-        run: python ./.github/scripts/generateOutbox.py
-      - name: Generate Sitemap
-        uses: cicirello/generate-sitemap@v1.8.3
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
         with:
-          path-to-root: dist
-          base-url-path: "https://blog.julian-lemmerich.de/"
-          url-count: true
-          excluded-count: true
+          hugo-version: 'latest'
+      
+      - run: hugo
       
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: dist
-          path: dist
+          name: public
+          path: public
       - name: Upload to Webhost
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
@@ -50,6 +32,6 @@ jobs:
           username: ${{ secrets.HETZNER_FTP_USR }}
           password: ${{ secrets.HETZNER_FTP_PWD }}
           protocol: "ftps"
-          local-dir: "./dist/"
+          local-dir: "./public/"
           server-dir: "./blog/"
           overwrite: true
