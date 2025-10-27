@@ -4,7 +4,7 @@ title = "Controlling OpenAutoPro with Volvo RTI IR-Remote"
 date = 2022-07-01
 summary = "Using my original 2007 Volvo RTI Remote to control OpenAutoPro on a Raspberry Pi."
 language = "en_GB"
-aliases = ['/220701-volvoir']
+aliases = ['/220701-volvoir.html']
 +++
 
 My 2007 Volvo V50 came with the RTI integrated Navigation System. You can control it with steering-wheel buttons or with an included IR-Remote that looks like this:

@@ -4,7 +4,7 @@ date = 2022-05-11
 author = "Julian Lemmerich"
 summary = "Since Android 11 the manual way of adding the Eduroam network requires more input. The official solution, the geteduroam app, is a horrible mess that I don't want to use."
 language = "en_GB"
-aliases = ['/220511-eduroamnoapp']
+aliases = ['/220511-eduroamnoapp.html']
 +++
 
 The geteduroam App is by many institutions the recommended way of connecting to eduroam. But, as can be seen from the playstore reviews, it is not the greatest app there is.
