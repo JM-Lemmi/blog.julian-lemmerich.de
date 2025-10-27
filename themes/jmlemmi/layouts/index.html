@@ -1,0 +1,18 @@
+{{ define "main" }}
+    <h1>{{ .Title }}</h1>
+    <p>Welcome to my Blog!</p>
+    {{ with site.Menus.main }}
+    <div style="display: flex; flex-wrap: wrap; gap: 1rem;">
+        {{ range . }}
+        <div style="border: 2px solid #ccc; border-radius: 12px; padding: 1rem; text-align: center; width: 140px;">
+            <a href="{{ .URL }}" style="text-decoration: none; color: inherit;">
+                {{ if .Params.Icon }}
+                    <img src="{{ (resources.Get (printf "icons/%s" .Params.Icon)).RelPermalink }}" alt="{{ .Name }} Icon" />
+                {{ end }}
+                <div style="margin-top: 0.5rem; font-weight: 500;">{{ .Name }}</div>
+            </a>
+        </div>
+        {{ end }}
+    </div>
+    {{ end }}
+{{ end }}
