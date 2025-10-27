@@ -1,0 +1,23 @@
+baseURL: https://blog.julian-lemmerich.de/
+languageCode: en-gb
+title: Julian Lemmerich's Blog
+theme: jmlemmi
+markup:
+  renderer:
+    unsafe: true
+menus:
+  main:
+  - name: Posts
+    pageRef: /posts
+    params:
+      icon: newspaper.svg
+    weight: 10
+  - name: Tags
+    pageRef: /tags
+    params:
+      icon: tag.svg
+    weight: 20
+
+#licenses:
+#  assets/icons/tag.svg:
+#    "Vectors and icons by <a href="https://dazzleui.gumroad.com/l/dazzleiconsfree?ref=svgrepo.com" target="_blank">Dazzle Ui</a> in CC Attribution License via <a href="https://www.svgrepo.com/" target="_blank">SVG Repo</a>""
