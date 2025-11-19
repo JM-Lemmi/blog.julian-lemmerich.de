@@ -34,6 +34,31 @@ E-Roller mit 2 Leuten: 1,6 kWh/100km/Pers
 
 ====
 
+- Mercedes Tourismo
+    20,72 l/100km (https://www.eurotransport.de/fahrzeuge/lkw/mercedes-benz-tourismo-m-2-sicherheit-macht-reisebus-zu-rekordanwaerter/)
+    25 l/100km (https://www.spritmonitor.de/de/detailansicht/512860.html)
+    51 Sitzplätze
+    1P: 65.750gCO²/100km
+    25P: 32.875gCO²/100km =  1l/100pkm
+    51P: 1.289gCO²/100km = 0,49l/100pkm
+
+- Nahverkehr (S-Bahn Berlin)
+    4.685.000.000 Personenkm / Jahr (https://sbahn.berlin/das-unternehmen/unternehmensprofil/auf-einen-blick-zahlen-und-fakten/)
+    393.200.000 kWh / Jahr (https://sbahn.berlin/das-unternehmen/unternehmensprofil/umweltschutz/s-bahn-zuege/)
+    = 8,39 kWh / 100pkm
+- Nahverkehr (DB) (https://ibir.deutschebahn.com/2022/de/konzernlagebericht/gruene-transformation/klimaschutz/energieeffizienz/)
+    0,82 MJ / Personenkm
+    = 22,77 kWh / 100pkm
+- Fernverkehr (DB) (https://ibir.deutschebahn.com/2022/de/konzernlagebericht/gruene-transformation/klimaschutz/energieeffizienz/)
+    0,23 MJ / Personenkm
+    = 6,38 kWh / 100pkm
+- Bus Fernverkehr (DB) (https://ibir.deutschebahn.com/2022/de/konzernlagebericht/gruene-transformation/klimaschutz/energieeffizienz/)
+    1,57 MJ / Personenkm
+    = 43,61 kWh / 100pkm
+    = 3,10 l / 100pkm
+
+====
+
 Zahlen aus dem [Jahresbericht 2024 der DB](https://ibir.deutschebahn.com/2024/de/zusammengefasster-lagebericht/gruene-transformation/klimaschutz/energieeffizienz/):
 
 ((Die Umrechnung von MJ in kWh ist 1:(1/3,6)))
