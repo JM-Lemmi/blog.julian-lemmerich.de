@@ -2,6 +2,8 @@ baseURL: https://blog.julian-lemmerich.de/
 languageCode: en-gb
 title: Julian Lemmerich's Blog
 theme: jmlemmi
+params:
+  siteIdentifier: blog
 markup:
   renderer:
     unsafe: true

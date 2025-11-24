@@ -20,6 +20,14 @@ body {
   border-bottom: thin solid black;
 }
 
+.topnav b {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+
 .topnav a {
   float: left;
   color: black;
@@ -80,7 +88,7 @@ hr {
 /**
  * Links
  */
-a {
+body > a {
   color: #0366d6;
   text-decoration: none; }
   a:visited {

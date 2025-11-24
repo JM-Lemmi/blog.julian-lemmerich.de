@@ -1,6 +1,8 @@
 <div class="topnav">
-    <a href="https://www.julian-lemmerich.de/">Home</a>
-    <a class="active" href="https://blog.julian-lemmerich.de/">Blog</a>
-    <a href="https://photos.julian-lemmerich.de/">Photography</a>
-    <a href="https://www.julian-lemmerich.de/about.html">About</a>
+    <b>Julian Lemmerich</b>
+    <a {{ if eq site.Params.siteIdentifier "web" }}class="active"{{ end }} href="https://www.julian-lemmerich.de/">Home</a>
+    <a {{ if eq site.Params.siteIdentifier "blog" }}class="active"{{ end }} href="https://blog.julian-lemmerich.de/">Blog</a>
+    <a href="https://www.julian-lemmerich.de/cv.html">Lebenslauf</a>
+    <a href="https://www.julian-lemmerich.de/academics.html">Academics</a>
+    <a href="https://www.julian-lemmerich.de/projects.html">Projects</a>
 </div>
