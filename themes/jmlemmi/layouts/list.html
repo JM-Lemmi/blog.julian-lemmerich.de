@@ -1,7 +1,17 @@
 {{ define "main" }}
   {{ range .Pages }}
-    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-    <p>{{ .Date.Format "2006-01-02" }}</p>
-    <p>{{ .Summary }}</p>
+    {{ if .Params.external_only }}
+    <a href="{{ .Params.external_link }}">
+    {{ else }}
+    <a href="{{ .RelPermalink }}">
+    {{ end }}
+      <div>
+        <h2>{{ .Title }}
+          {{ if .Params.external_only }}<span class="material-symbols-outlined">open_in_new</span>{{ end }}
+        </h2>
+        <p>{{ .Date.Format "2006-01-02" }}</p>
+        <p>{{ .Summary }}</p>
+      </div>
+    </a>
   {{ end }}
 {{ end }}
