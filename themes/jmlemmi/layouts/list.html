@@ -1,7 +1,9 @@
 {{ define "main" }}
   {{ range .Pages }}
+    {{ if not .Params.hidden }}
     <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
     <p>{{ .Date.Format "2006-01-02" }}</p>
     <p>{{ .Summary }}</p>
+    {{ end }}
   {{ end }}
 {{ end }}
