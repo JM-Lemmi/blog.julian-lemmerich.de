@@ -1,5 +1,6 @@
 {{ define "main" }}
   {{ range .Pages }}
+    {{ if not .Params.hidden }}
     {{ if .Params.external_only }}
     <a href="{{ .Params.external_link }}">
     {{ else }}
@@ -13,5 +14,6 @@
         <p>{{ .Summary }}</p>
       </div>
     </a>
+    {{ end }}
   {{ end }}
 {{ end }}

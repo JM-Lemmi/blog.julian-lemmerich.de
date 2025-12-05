@@ -5,6 +5,7 @@ author = "Julian Lemmerich"
 summary = "Every Docker Setup nowadays needs a reverse proxy and there are a lot of different choices. After trying both Traefik and NGINX Proxy Manager, but having troubles with them, I decided to use a bare nginx container. This setup needs a bit more attention, but its also much lighter and easier to maintain in my opinion."
 language = "en_GB"
 aliases = ['/220424-nginxproxy.html']
+hidden = true
 +++
 
 Every Docker Setup nowadays needs a reverse proxy and there are a lot of different choices.
